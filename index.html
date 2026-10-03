@@ -82,12 +82,12 @@
 </header>
 
 <main>
-  <p class="updated"><strong>Last updated:</strong> September 28, 2026</p>
+  <p class="updated"><strong>Last updated:</strong> October 3, 2026</p>
 
   <div class="highlight-box">
     <strong>In short:</strong> DailyHisaab does not collect, store, or transmit any of your personal or
     financial data to us or to any third party. Everything you enter — your income, expenses, savings,
-    loans, PIN, and settings — stays only on your own device.
+    loans, bank account names, tour plans, PIN, and settings — stays only on your own device.
   </div>
 
   <h2>1. Who we are</h2>
@@ -102,7 +102,7 @@
   offline. Specifically:</p>
   <ul>
     <li>The App does not require an internet connection to function.</li>
-    <li>The App does not have any server, backend, or cloud database.</li>
+    <li>The App does not have any server, backend, or cloud database of its own.</li>
     <li>We (the developer) never receive, see, or have access to any data you enter in the App.</li>
     <li>The App does not use Firebase, Google Analytics, or any third-party analytics or advertising SDK.</li>
     <li>The App does not display advertisements.</li>
@@ -118,25 +118,51 @@
     <li>Optional details of the person on the other side of a loan, if you choose to type them:
     name, father's name, village, mandal, district, state, and mobile number. These are only the
     details you enter yourself; the App never reads your phone contacts</li>
+    <li>Names you give your own bank accounts (e.g. "SBI", "Union Bank") and, if you choose to enter
+    it, that account's number — stored only so the App can show you each account's running balance</li>
+    <li><strong>Tour Plan (optional feature):</strong> if you turn this on, you may enter group-trip
+    details — the vehicle number and type, the driver's name and licence number, the trip treasurer's
+    name, and for each traveller their name, village, and mobile number, along with the advance amount
+    they gave and the trip's daily expenses. These are only the details you choose to type for your
+    own record-keeping and settlement, and they stay fully separate from your daily cash book</li>
     <li>A 4-digit PIN you set to lock the App</li>
     <li>Your selected country, currency, and language preference</li>
-    <li>Your choice to show or hide the Savings &amp; Loans tab</li>
+    <li>Your own optional profile (name, village, mobile number), shown only on PDF reports you
+    generate yourself</li>
+    <li>Your choice to show or hide the Savings &amp; Loans tab and the Tour Plan tab</li>
   </ul>
   <p>
-    This data never leaves your device. It is not uploaded to any server, not shared with us, and not
-    shared with any third party. If you uninstall the App, or clear its data/storage from Android
-    Settings, this data is permanently deleted from your device.
+    This data never leaves your device on its own. It is not uploaded to any server, not shared with
+    us, and not shared with any third party. If you uninstall the App, or clear its data/storage from
+    Android Settings, this data is permanently deleted from your device.
   </p>
   <p>
-    <strong>Details of other people:</strong> if you record details of another person (for example,
-    someone you lent money to), please make sure you are comfortable keeping those details. They stay
-    only on your device, and we cannot see them.
+    <strong>Details of other people:</strong> if you record details of another person (someone you lent
+    money to, a fellow traveller, or a driver), please make sure you are comfortable keeping those
+    details. They stay only on your device, and we cannot see them.
   </p>
   <p>
-    <strong>PDF export:</strong> the App can create a PDF report of your entries or of your savings and
-    loans. This only happens when you tap the export button. Android asks you where to save the file,
-    and the App does not upload it anywhere. If you later share that file with someone, that is your
-    own choice and outside the App.
+    <strong>PDF export:</strong> the App can create a PDF report of your cash book, your savings and
+    loans, or a tour plan. This only happens when you tap the export button. Android asks you where to
+    save the file, and the App does not upload it anywhere. If you later share that file with someone,
+    that is your own choice and outside the App.
+  </p>
+  <p>
+    <strong>Manual backup &amp; restore:</strong> Settings includes a "Backup now" option that packages
+    all of the data listed above into a single file on your device, which you then choose where to send
+    using Android's own share menu (for example, to your own email, to Google Drive, or over WhatsApp) —
+    the App itself never sends or uploads this file anywhere. "Restore from backup" lets you pick such a
+    file (for example on a new phone) to bring that data back into the App. Where that backup file is
+    stored, and who can see it, is entirely up to the app or service you choose to save it to — please
+    pick somewhere you trust, since the file contains the same personal and financial details described
+    in this policy.
+  </p>
+  <p>
+    <strong>Your device's own backup:</strong> separately from the App, Android's built-in "Back up to
+    Google Drive" device setting (if you have turned it on in your phone's own Settings) may back up
+    this App's data to your personal Google account as part of backing up your whole phone. This is a
+    feature of your Android device, not of the App, and is controlled entirely by your phone's Settings
+    and your own Google account.
   </p>
 
   <h2>4. PIN security</h2>
@@ -151,25 +177,29 @@
 
   <h2>5. Permissions</h2>
   <p>
-    DailyHisaab does not request access to your contacts, location, camera, microphone, SMS, or storage
-    beyond what Android automatically grants for the App's own private data folder. When you export a
-    PDF, you pick the save location with Android's own file picker, which does not require any storage
-    permission. If a future update requires a new permission, this policy will be updated to explain why.
+    DailyHisaab does not request access to your contacts, location, camera, or microphone, and does not
+    ask for broad storage access beyond what Android automatically grants for the App's own private
+    data folder. When you export a PDF or create a manual backup file, you pick the save location (or
+    the app to send it through) using Android's own file picker and share menu, which do not require
+    any special storage permission. If a future update requires a new permission, this policy will be
+    updated to explain why.
   </p>
 
   <h2>6. Data sharing and third parties</h2>
   <p>
     We do not sell, rent, trade, or share any data with third parties, because we do not collect or
     have access to any data in the first place. There are no third-party services integrated into this
-    App that would receive your information.
+    App that would receive your information. The only way data ever leaves your device is if you
+    yourself choose to share a PDF report or a backup file through another app.
   </p>
 
-  <h2>7. Interest and loan calculations</h2>
+  <h2>7. Interest, EMI and settlement calculations</h2>
   <p>
-    The Savings &amp; Loans section is a personal record-keeping tool. Interest, EMI, and balance
-    figures are estimates calculated from what you enter. They are not financial, legal, or tax advice,
-    and the App does not lend money, process payments, or contact anyone on your behalf. Loan and
-    interest rules differ by country and state, so please follow the laws that apply to you.
+    The Savings &amp; Loans section and the Tour Plan section are personal record-keeping tools.
+    Interest, EMI, balance, and settlement figures are estimates calculated from what you enter. They
+    are not financial, legal, or tax advice, and the App does not lend money, process payments, or
+    contact anyone on your behalf. Loan and interest rules differ by country and state, so please
+    follow the laws that apply to you.
   </p>
 
   <h2>8. Children's privacy</h2>
@@ -184,9 +214,12 @@
     Since all data stays on your device, you are always in full control of it:
   </p>
   <ul>
-    <li>You can delete individual entries, savings records, loans, and payments at any time within the App.</li>
+    <li>You can delete individual entries, savings records, loans, payments, bank accounts, tours,
+    travellers, and tour expenses at any time within the App.</li>
     <li>You can clear all App data via Android Settings → Apps → DailyHisaab → Storage → Clear Data.</li>
     <li>Uninstalling the App removes all locally stored data.</li>
+    <li>You can make your own backup file at any time (Settings → Backup now) and store it wherever
+    you choose.</li>
   </ul>
 
   <h2>10. Changes to this policy</h2>
